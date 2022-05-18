@@ -1,10 +1,9 @@
 body{
     margin:50px ;
- 
-   
+    background-color: rgb(235, 231, 225);
 }
 .box1{
-    padding: 10px; ;
+    padding: 10px; 
     width: fit-content;
     background-color: white;
     border-top: 15px solid rgb(0, 157, 255);
