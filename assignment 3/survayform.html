@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>survay form</title>
+        <link rel="stylesheet" type="text/css" href="assn3.css">
+        <body>
+            <form action="/survayform.html" method="get">
+                <img src="tree small.jpg" alt="this is an tree img" style="height:48px ;width: 48px ;float: left;"><br><br>
+                <h1>Tree Survay Form</h1>
+
+                <p>A survay form on the health of the environment</p>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your name e.g john doe "><br><br>
+
+                <label class="lbl" for="email">Email:</label><br>
+                <input type="email" id="email"placeholder="xyz@some.com"><br><br>
+
+                <label for="age">Age(optional):</label><br>
+                <input type="number" id="age" placeholder="Enter your age"><br>
+
+
+
+                <p>Select continent of residense :</p>
+                <input list="continents" id="continent">
+                <datalist id="continents">
+                    <option value="Asia"></option>
+                    <option value="Africa"></option>
+                    <option value="North America"></option>
+                    <option value="South America"></option>
+                    <option value="Antractica"></option>
+                    <option value="Europe"></option>
+                    <option value="Australia"></option>
+                </datalist>
+
+
+                <p class="t2">Chose your prefered gender :</p>
+                <input type="radio" id="female" name="gender"><p1>Female</p1><br><br>
+                <input type="radio" id="male" name="gender"><p1>Male</p1><br><br>
+                <input type="radio" id="other" name="gender"><p1>Other</p1><br>
+                <p class="t2">Please select atleast one of the options below :</p>
+
+
+                <input type="checkbox" id="chose">
+                <p1>I have planted a tree or any other plant</p1><br><br>
+                <input type="checkbox" id="chose">
+                <p1>I take part in community service for the environment</p1><br><br>
+                <input type="checkbox" id="chose">
+                <p1>I promise to plant more from now on</p1><br>
+
+
+                <p class="t2">Any comments or suggestions :</p>
+                <textarea name="comment" id="comment" cols="98" rows="7" placeholder="Comments/suggestions..."></textarea><br><br>
+
+                <button type="submit" name="submit" formaction="/survayform.html">submit</button>
+
+                
+            </form>
+        </body>
+    </head>
+</html>
